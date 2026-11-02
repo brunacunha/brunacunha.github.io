@@ -1,65 +1,30 @@
-html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+html {
+  background: #F3EAD3;
 }
 
-.simple-nav {
-  padding: 20px 0;
+body {
+  max-width: 650px;
+  margin: 0px auto;
+  padding: 12px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+p {
+  margin: 0.25em 0;
+}
+
+header,
+nav {
   text-align: center;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 30px;
 }
 
-.simple-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #555;
-  font-weight: 500;
+a {
+  color: black;
 }
 
-.simple-nav a.active, .simple-nav a:hover {
-  color: #000;
-  border-bottom: 2px solid #000;
-  padding-bottom: 4px;
-}
-
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px 60px 20px;
-}
-
-.clickable-card {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.clickable-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.lang-btn {
-  background-color: transparent;
-  border: 1px solid #ffffff33;
-  color: #ffffff;
-  padding: 8px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-family: inherit;
-  font-size: 14px;
-  transition: background-color 0.2s, border-color 0.2s;
-}
-
-.lang-btn:hover {
-  background-color: #ffffff1a;
-  border-color: #ffffff66;
-}
-
-.lang-btn .flag {
-  font-size: 16px;
+.avatar {
+  border-radius: 50%;
 }
