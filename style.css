@@ -1,9 +1,10 @@
 html {
-  background: #322F2E;
+  background: #18181B;
+  /*##18181B" #322F2E*/
 }
 
 a {
-  color: #F3EAD3;
+  color: #A4CDFE;
 }
 
 body {
@@ -26,8 +27,6 @@ header,
 nav {
   text-align: center;
 }
-
-
 
 .avatar {
   border-radius: 50%;
